@@ -39,7 +39,7 @@ def index():
         userLevel = request.form['userLevel']
         Chat = request.form['Chat']
 
-        client = openai.OpenAI(api_key='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')
+        client = openai.OpenAI(api_key='')
      
         response = client.chat.completions.create(
             model="gpt-3.5-turbo-1106",
